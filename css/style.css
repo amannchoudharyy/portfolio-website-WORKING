@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;margin: 0;
+    /* color: #483822; */
+
+
+}
+:root{
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f6ff;
+
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* -------------header---------- */
+#nav{
+    width: 100%;
+    position: fixed;
+display: flex;
+padding: 0px 0px 15px 0px;
+color: #483822;
+z-index: 3;
+background-color: #f0f6ff;
+/* border: 2px solid red; */
+}
+#leftnav {
+    font-size: 30px;
+    padding: 0px 0px 0px 25px;
+}
+#rightnav ul{
+    position: absolute;
+    display: flex;
+    right: 0%;
+}
+#rightnav li{
+    margin: 0px 20px;
+}
+#rightnav a{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #483822;
+}
+#rightnav a:hover{
+   
+    color: #004fe6;
+}
+#rightnav i{
+    text-align: center;
+    font-size: x-large;
+}
+/* ---------------home----------- */
+#home{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 450px;
+    margin: 66px 0px;
+}
+#lefthome{
+   align-self: center;
+   padding: 0px 0px 0px 25px;
+}
+#lefthome h1{
+    color: #483822;
+}
+#lefthome h3{
+    color: gray;
+}
+#lefthome p{
+    color: gray;
+}
+#righthome img{
+    height: 446px;
+    position: absolute;
+    right: 2vw;
+}
+.btn{padding: 12px 0px;
+   
+    background-color: #004fe6;
+    /* font-weight: bold; */
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+
+}
+.btn a{ padding: 12px 16px;
+    color: white;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: #00379c;
+
+}
+.swp{
+    height: 50px;
+}
+#swipe{
+    padding: 0;
+}
+#swipe:hover{
+    animation-name: aman;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    padding: 20px 0px 0px 0px;
+
+}
+@keyframes aman {
+    from{padding: 0;
+
+    }
+    to{
+        padding: 20px 0px 0px 0px;
+    }
+    
+}
+/* -----------------about-------- */
+#abt{color: #807c7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about h1{color: #483822;
+    text-align: center;
+}
+#abtleft{
+    width: 246px;
+}
+#abtright{
+    width: 340px;
+    margin: 54px;
+}
+.tab{
+    padding: 30px;
+    text-align: center;
+}
+/* ---------------skills-------- */
+
+.skillshead{
+    text-align: center;
+}
+.majburi{
+    display: flex;
+    justify-content: center;
+}
+.skillsitem{
+    width: 757px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#frontend,#designer,#backend{
+    width: 355px;
+    margin: 10px;
+}
+#frontendhead,#designhead,#backendhead{
+   display: flex;
+  
+}
+.skillsicon{
+    align-self: center;
+    font-size: 30px;
+}
+.skillsarrow{
+    font-size: 25px;
+    align-self: end;
+}
+.skilltitle{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.percent , .percent2{
+    height: 5px;
+    background-color: #c3d1ec;
+    border-radius: 4px;
+
+}
+.skill1{
+    margin: 0px 0px 20px 0px;
+}
+#htmlpercent{
+    width: 90%;
+    background-color: #fd6f11;
+}
+#csspercent{
+    width: 85%;
+    border: 0.2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+#javascriptpercent{
+    width: 65%;
+    background-color: green;
+}
+#photoshoppercent{
+    width: 90%;
+    background-color: #fd6f11;
+}
+#sketchpercent{
+    width: 85%;
+    border: 0.2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+#animationpercent{
+    width: 65%;
+    background-color: green;
+}
+#nodejspercent{
+    width: 55%;
+    background-color: #fd6f11;
+}
+#cpercent{
+    width: 85%;
+    border: 0.2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+#jspercent{
+    width: 65%;
+    background-color: green;
+}
+.skillsitem p{
+    color: gray;
+}
